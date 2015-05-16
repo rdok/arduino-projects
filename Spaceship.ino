@@ -6,17 +6,28 @@ int secondPin = 2;
 
 void setup() {
 	setUpPins();
-
+	showStartMessage();
 }
 
 void loop() {
 
 	if ( ! buttonIsPressed())
 	{
-		turnGreenLEDOn();
-		turnFourthRedLEDOff();
-		turnFifthRedLEDOff();
+		flashOn();
 	} else {
+		flashOff();
+	}
+}
+
+void showStartMessage(){
+	for(int i = 0; i < 3; i++){
+		flashOn();
+		waitForAQuearterSecond();
+		flashOff();
+	}
+}
+
+void flashOff(){
 		turnGreenLEDOff();
 		turnFourthRedLEDOff();
 		turnFifthRedLEDOn();
@@ -27,7 +38,22 @@ void loop() {
 		turnFifthRedLEDOff();
 
 		waitForAQuearterSecond();
-	}
+
+		turnFourthRedLEDOff();
+		turnFifthRedLEDOn();
+
+		waitForAQuearterSecond();
+		
+		turnFourthRedLEDOn();
+		turnFifthRedLEDOff();
+
+		waitForAQuearterSecond();
+}
+
+void flashOn(){
+	turnGreenLEDOn();
+	turnFourthRedLEDOff();
+	turnFifthRedLEDOff();
 }
 
 void setUpPins() {
