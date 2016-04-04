@@ -7,6 +7,7 @@ Simple ciruits with switches, leds, and resistors.
 - [Experimentation Circuit](https://vimeo.com/143351130)  
 
 ### Spaceship Interface
+- [Showcase](https://vimeo.com/128044529)  
 
 ### Tools
 - [Sublime Text](http://www.sublimetext.com/)
