@@ -1,7 +1,12 @@
 ## Projects
-1. [Get to Know Your Tools](https://github.com/rdok/arduino-projects-book/tree/01-get-to-know-your-tools)
-2. [Spaceship Interface](https://github.com/rdok/arduino-projects-book/tree/02-spaceship-interface)  
+### Get to Know Your Tools
+Simple ciruits with switches, leds, and resistors.   
+- [Basic Circuit](https://vimeo.com/143347629)  
+- [Series Circuit](https://vimeo.com/143349402)  
+- [Parallel Circuit](https://vimeo.com/143350462)
+- [Experimentation Circuit](https://vimeo.com/143351130)  
 
+### Spaceship Interface
 
 ### Tools
 - [Sublime Text](http://www.sublimetext.com/)
